@@ -1,0 +1,131 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(88, 88, 88);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  text-transform: none;
+}
+
+hr {
+  color: rgb(215, 215, 215);
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+li {
+  font-size: 14px;
+  text-transform: none;
+  display: inline-block;
+}
+
+a {
+  color: rgb(142, 142, 142);
+}
+
+a:visited {
+  color: rgb(222, 177, 99);
+}
+
+a:hover {
+  color: rgb(232, 138, 31);
+}
+
+.main-col {
+  margin-top: 50px;
+  float: left;
+  width: 70%;
+}
+
+.muki-360 {
+  margin-top: 100px;
+  float: left;
+  width: 70%;
+}
+
+.muki-sivut {
+  margin-top: 20px;
+  float: left;
+  width: 70%;
+}
+
+.tunnelmakuva {
+  float: left;
+  width: 70%;
+  margin-top: 400px;
+  text-transform: none;
+  color: rgb(241, 173, 214);
+}
+
+.sidebar-col {
+  float: right;
+  width: 30%;
+  width: 250px;
+  margin: 40px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
+  height: 650px;
+  text-align: center;
+  text-transform: none;
+  padding: 15px;
+  color: rgb(216, 145, 201);
+
+  position: fixed;
+  float: right;
+  right: 0;
+  top: 0;
+}
+
+.alunen-img {
+  display: grid;
+  row-gap: 40px;
+  justify-content: center;
+}
+
+.main-col-vesi {
+  float: left;
+  width: 70%;
+}
+
+.main-col-kahvi {
+  float: left;
+  width: 70%;
+}
+
+.main-col-tee {
+  float: left;
+  width: 70%;
+}
+
+.vesi-kuvat {
+  margin-top: 100px;
+}
+
+.kahvi-kuvat {
+  margin-top: 100px;
+}
+
+.tee-kuvat {
+  margin-top: 100px;
+}
+
+footer {
+  text-transform: none;
+  width: 100%;
+  color: rgb(214, 177, 55);
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  margin-top: 100px;
+}
